@@ -25,7 +25,7 @@ if st.button("تاكيد التخمين "):
   num=+1
  else:
   st.error("you are not winner ")
-    del num
+  del num
 if st.button("السؤال التالي "):
  del mm():
   num1=st.session_state.num1()
