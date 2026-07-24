@@ -29,7 +29,6 @@ if st.button("تاكيد التخمين "):
  st.session_state.num += 1
 else:
   st.error("you are not winner ")
-  del num
 if st.button("السؤال التالي "):
   del st.session_state.num1
   del st.session_state.num2
