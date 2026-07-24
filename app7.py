@@ -19,14 +19,14 @@ if sign=='/':
 st.title("welcome to our game")
 st.write(num1,sign,num2)
 number=st.number_input("What is the reselt")
-if st.button("تاكيد التخمين ")
+if st.button("تاكيد التخمين "):
  if number==sc:
   st.success("you are winner ")
   num=+1
   else:
    st.error("you are not winner ")
     num=0
-if st.button("السؤال التالي ") 
+if st.button("السؤال التالي "):
  del mm():
   num1=st.session_state.num1()
   num2=st.session_state.num2()
