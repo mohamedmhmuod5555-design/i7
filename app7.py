@@ -32,4 +32,4 @@ if st.button("تاكيد التخمين "):
     del num2
     del sign
     return()
-print (,num)
+print (num)
