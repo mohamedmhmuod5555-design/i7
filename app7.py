@@ -30,6 +30,6 @@ if st.button("تاكيد التخمين "):
    def mm():
     del num1
     del num2
-    del sign=
+    del sign
     return()
 print (,num)
