@@ -2,9 +2,6 @@ import random
 import streamlit as st 
 if 'num' not in st.session_state:
  st.session_state.num = 0
-num1=random.randint(1,20)
-num2=random.randint(1,20)
-sign=random.choice(['+','-','*','/'])
 if 'num1' not in st.session_state:
   st.session_state.num1=random.randint(1,20)
   st.session_state.num2=random.randint(1,20)
@@ -27,8 +24,8 @@ if st.button("تاكيد التخمين "):
  if number==sc:
   st.success("you are winner ")
  st.session_state.num += 1
- else:
-  st.error("you are not winner ")
+else:
+ st.error("you are not winner ")
 if st.button("السؤال التالي "):
   del st.session_state.num1
   del st.session_state.num2
