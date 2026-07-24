@@ -1,5 +1,5 @@
 import random 
-from streamlit import as st 
+import streamlit as st 
 num=0
 if num1 not in st.session_state():
  st.session_state.num1()=random.randint(1,20)
