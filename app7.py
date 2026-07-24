@@ -34,4 +34,4 @@ if st.button("السؤال التالي "):
   del st.session_state.num2
   del st.session_state.sign
   st.rerun()
-print (num)
+st.write(num)
