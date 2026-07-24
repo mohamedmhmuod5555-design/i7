@@ -29,9 +29,9 @@ if st.button("تاكيد التخمين "):
  else:
   st.error("you are not winner ")
   del num
-  if st.button("السؤال التالي "):
-    del st.session_state.num1
-    del st.session_state.num2
-    del st.session_state.sign
-    st.rerun()
+if st.button("السؤال التالي "):
+  del st.session_state.num1
+  del st.session_state.num2
+  del st.session_state.sign
+  st.rerun()
 print (num)
