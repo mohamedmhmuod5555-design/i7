@@ -30,9 +30,8 @@ if st.button("تاكيد التخمين "):
   st.error("you are not winner ")
   del num
   if st.button("السؤال التالي "):
-   def mm():
     del st.session_state.num1
     del st.session_state.num2
     del st.session_state.sign
-    return()
+    st.return()
 print (num)
