@@ -33,5 +33,5 @@ if st.button("تاكيد التخمين "):
     del st.session_state.num1
     del st.session_state.num2
     del st.session_state.sign
-    st.return()
+    st.rerun()
 print (num)
