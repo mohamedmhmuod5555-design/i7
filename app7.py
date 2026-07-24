@@ -31,8 +31,8 @@ if st.button("تاكيد التخمين "):
   del num
   if st.button("السؤال التالي "):
    def mm():
-    del num1
-    del num2
-    del sign
+    del st.session_state.num1
+    del st.session_state.num2
+    del st.session_state.sign
     return()
 print (num)
