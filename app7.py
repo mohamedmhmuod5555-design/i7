@@ -27,7 +27,7 @@ if st.button("تاكيد التخمين "):
  if number==sc:
   st.success("you are winner ")
  st.session_state.num += 1
-else:
+ else:
   st.error("you are not winner ")
 if st.button("السؤال التالي "):
   del st.session_state.num1
