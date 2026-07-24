@@ -1,6 +1,7 @@
 import random 
 import streamlit as st 
-
+if 'num' not in st.session_state:
+    st.session_state.num = 0
 num1=random.randint(1,20)
 num2=random.randint(1,20)
 sign=random.choice(['+','-','*','/'])
