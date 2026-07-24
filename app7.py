@@ -23,8 +23,8 @@ if st.button("تاكيد التخمين "):
  if number==sc:
   st.success("you are winner ")
   num=+1
-  else:
-   st.error("you are not winner ")
+ else:
+  st.error("you are not winner ")
     num=0
 if st.button("السؤال التالي "):
  del mm():
