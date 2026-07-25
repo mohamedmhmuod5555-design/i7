@@ -1,5 +1,7 @@
 import random 
 import streamlit as st 
+st.write(st.session_state.num)
+
 if 'num' not in st.session_state:
  st.session_state.num = 0
 if 'num1' not in st.session_state:
@@ -31,4 +33,3 @@ if st.button("السؤال التالي "):
   del st.session_state.num2
   del st.session_state.sign
   st.rerun()
-st.write(st.session_state.num)
