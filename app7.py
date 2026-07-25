@@ -32,6 +32,5 @@ if st.button("السؤال التالي "):
   del st.session_state.num1
   del st.session_state.num2
   del st.session_state.sign
-  del st.error("you are not winner ")
- del st.success("uou are winner ")
+ 
   st.rerun()
